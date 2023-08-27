@@ -3,7 +3,7 @@
 <em> # BEAUTY AND MAKEUP ARG </em>
 
 1. [Info](#info)
-2. [Ideas](#Ideas)
+2. [Bugs](#Bugs)
 3. [SobreMi](#SobreMi)
 
 ### General Info
@@ -12,7 +12,7 @@ Beauty Makeup es una pagina web escrita en HTML, la cual esta adornada con CSS y
 Hacer una pagina web para un salon de belleza que ofrece variados servicios. Incluir dentro de el formularios de contacto,
  para obtener turnos y tambien un market.
 
-## Ideas
+## Bugs
 ***
 Version 1.0 20/08/2023
 **Version 2.0 (actual) 27/08/2023**
