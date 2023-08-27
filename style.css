@@ -1,0 +1,280 @@
+body { /* CUERPO DE LA PAGINA */
+  background-color: black;
+  }
+  
+  header { /* BARRA DE ARRIBA*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ALINEACION DEL TEXTO*/
+    background: linear-gradient(to right, #c28736, #000); /* COLORES EN DEGRADE*/
+    font-family: "ALIKE", sans-serif; /* FUENTE*/
+    text-transform: uppercase;
+    color: #000; /* COLOR DE LA FUENTE*/
+  }
+  
+  .logo img { /* CARACTERISTICAS DEL LOGO*/
+    width: 90px; 
+    height: 90px;
+    margin-left: 40px;
+  }
+
+  head { /* FORMULARIO BASICO PARA TOMAR TURNOS*/
+    background-color: black;
+    color: white;
+    font-family: "Daydream", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 1500px;
+    margin: 0px auto;
+    padding: 240px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #c28736;
+    border: ;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #c28736;
+    
+  }
+
+ 
+  h3 {  /* ALERTA EN MANTENIMIENTO MERCADO*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+#header2 {
+  background-color: #333;
+  padding: 10px;
+  color: #f2c562;
+  text-align: center;
+
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+h2 {
+  color: #000000;
+}
+p {
+  margin-bottom: 10px;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.image-left {
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.image-right {
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.content {
+  flex-basis: 50%;
+  margin-left: 20px;
+} }
+
+#alertContainer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+#alertBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: "Daydream", sans-serif;
+    
+}
+
+#alertBox h1 {
+    margin-top: 0;
+    color: #c28736;
+    font-family: "Daydream", sans-serif;
+  
+}
+
+#alertBox p {
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.gallery {  /* GALERIA DE FOTOS*/
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.gallery img {
+  width: 35%;
+  height: auto;
+  margin: 10px;
+  padding-top: 5%;
+}
+ 
+.image-left { /* CARACTERISTICAS DE LA IMAGEN DE QUIENES SOMOS*/
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 35%;
+  height: auto;
+  margin: 120px;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+
+.content { /* CARACTERISTICAS DEL TEXTO QUIENES SOMOS*/
+  width: 700px; 
+  height: 90px;
+  margin-left: 550px;
+  padding-top: 3%;
+  font-family: "ALIKE", sans-serif;
+
+}
+
+  .menu ul { /* FORMULARIO BASICO DE CONTACTO CON 3 RECUADROS PARA COMPLETAR*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu ul li { /* FORMULARIO */
+    margin-right: 10px;
+  }
+  
+  .menu ul li a { /* FORMULARIO */
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .search-bar input { /* BARRA DE BUSQUEDA */
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 40px;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  . { /* CUERPO TEXTO DE FAQ QUIENES SOMOS */
+
+  }
+
+  footer { /* BARRA DE ABAJO Y SUS CARACTERISTICAS */
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to right, #c28736, #000);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: "ALIKE", sans-serif;
+    margin: 10;
+    padding: 5px;
+  
+  }
+   
+
+  .footer-logo img { /* LOGO DE WHATSAPP */
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    margin-left: 1350px;
+  }
+
+  
+  .body2 {
+    background-color: #ffffff;
+    font-family: "ALIKE", sans-serif;
+    margin: 10;
+    padding: 20px;
+}
+
+.form-wrapper { /* FORMULARIO Y SUS CARACTERISTICAS */
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.form-group button { /* BOTON DE ENVIAR EN EL FORMULARIO */
+    background-color: #412d17;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
