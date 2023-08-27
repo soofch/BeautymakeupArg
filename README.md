@@ -20,8 +20,8 @@ La pagina no es 100% responsive para todos los dispositivos, se encuentra optimi
 todo aun para celulares o tabletas. 
 ```
 
-### SobreMI
-***
+SobreMI
+
 Este es mi segundo proyecto de pagina en la vida. De chiquita tenia un blog y desde blogspot me empece a interesar en las
 paginas web en html, y jugaba con contadores y minijuegos en java los cuales agregaba al blog. Ese fue mi primer acercamiento
 a la programacion web. Luego hice el curso de BA multiplica 2.0 para el cual arme un intento de proyecto, el cual pude concluir
